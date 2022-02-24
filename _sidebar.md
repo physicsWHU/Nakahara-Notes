@@ -1,3 +1,8 @@
 - [Home](README.md)
 - 1 Quantum Physics
   - [1.1 Analytical mechanics](1/1.1.md)
+- 2 Mathematical Preliminaries
+  - [2.1 Maps](2/2.1.md)
+  - [2.2 Vector spaces](2/2.2.md)
+  - [2.3 Topological spaces](2/2.3.md)
+  - [2.4 Homeomorphisms and topological invariants](2/2.4.md)
