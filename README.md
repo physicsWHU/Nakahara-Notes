@@ -20,7 +20,7 @@ If you find any error or typo, please contact us to make corrections. It would b
 
 ---
 
-?>Project repository is available on GitHub ([*Click here!*](https://github.com/physicsWHU/Nakahara-Notes)), welcome to issue.
+?>Project repository is available on GitHub ([*Click here!*](https://github.com/physicsWHU/Nakahara-Notes)), welcome to star and issue.
 
 
 >Contributors:
