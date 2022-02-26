@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
   
 
+  <style>
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: purple;
+    }
+  </style>
  
 
 </head>
@@ -27,6 +33,13 @@
   window.$docsify = {
     loadSidebar: true,
     name: 'Nakahara Notes',
+    tabs: {
+    persist    : true,      // default
+    sync       : true,      // default
+    theme      : 'classic', // default
+    tabComments: true,      // default
+    tabHeadings: true       // default
+  },
     themeable: {
       readyTransition: true // default
     },
@@ -70,6 +83,10 @@
     type="text/javascript">
   </script>
   
+  <!-- docsify-tabs (latest v1.x.x) -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   
 
 </body>
