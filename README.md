@@ -32,6 +32,6 @@ If you find any error or typo, please contact us to make corrections. It would b
 
 ---
 
-?> This document is powered by [*Docsify*](https://docsify.js.org/#/) and the theme is [*docsify-themeable*](https://jhildenbiddle.github.io/docsify-themeable/#/) combined with [*docsify-darklight-theme*](https://docsify-darklight-theme.boopathikumar.me/#/). You can refer to [this page](https://jhildenbiddle.github.io/docsify-themeable/#/markdown) for some useful markdown grammar.
+?> This document is powered by [*Docsify*](https://docsify.js.org/#/) and the theme is [*docsify-themeable*](https://jhildenbiddle.github.io/docsify-themeable/#/) combined with [*docsify-darklight-theme*](https://docsify-darklight-theme.boopathikumar.me/#/). You can refer to [this page](https://jhildenbiddle.github.io/docsify-themeable/#/markdown) for some useful markdown syntax.
 
 !> **Notice: Don't forget to create a link in the table of content in the *_sidebar.md* file following the given pattern.**
