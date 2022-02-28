@@ -1,16 +1,16 @@
 - [Home](README.md)
 - 1 Quantum Physics
   - [1.1 Analytical mechanics](1/1.1.md)
-  - [Problems](1/1 problems.md)
+  - [Problems](1/1_problems.md)
 - 2 Mathematical Preliminaries
   - [2.1 Maps](2/2.1.md)
   - [2.2 Vector spaces](2/2.2.md)
   - [2.3 Topological spaces](2/2.3.md)
   - [2.4 Homeomorphisms and topological invariants](2/2.4.md)
-  - [Problems](2/2 problems.md)
+  - [Problems](2/2_problems.md)
 - 3 Homology Groups
   - [3.1 Abelian Groups](3/3.1.md)
   - [3.2 Simplexes and simplicial complexes](3/3.2.md)
   - [3.3 Homology groups of simplicial complexes](3/3.3.md)
   - [3.4 General properties of homology groups](3/3.4.md)
-  - [Problems](3/3 problems.md)
+  - [Problems](3/3_problems.md)
