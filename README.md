@@ -26,8 +26,8 @@ If you find any error or typo, please contact us to make corrections. It would b
 
 
 >Contributors:
->- *Li Feng* [<i class="fa fa-envelope" style="font-size:24px"></i> ](mailto:flphysics@whu.edu.cn)
->- *Muchun Chen* [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:2019302070055@whu.edu.cn)
+>- *Li Feng* [<i class="fa fa-envelope" style="font-size:24px"></i> ](mailto:flphysics@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/IlIlllllIIIIl)
+>- *Muchun Chen* [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:2019302070055@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/0923katou)
 >- *Shangjie Zhou* [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:sjzhou@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/spaceofzsj)
 
 ---
