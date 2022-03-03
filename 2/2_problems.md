@@ -13,4 +13,4 @@ In this document, we will discuss after-class exercises and some difficult exerc
 # Answer 4:
 >One is to show that the two figures are homeomorphic. This is trivial: just take a homeomorphism from one ring on the left to one ring on the right and an homeomorphism from the other ring on the left to the other ring on the right. Combine those two homeomorphism to a map from the two rings on the left to the two rings on the right; that's an homeomorphism as well. It is important to realize that the ambient space (the R3) doesn't play a role!
 
->The other question is to argue that there is a homotopy
+>The other question is to argue that there is a homotopy $[0,1]\times(S_1\cup S_2)\rightarrow R^4$
