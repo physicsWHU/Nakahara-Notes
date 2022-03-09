@@ -14,3 +14,8 @@
   - [3.3 Homology groups of simplicial complexes](3/3.3.md)
   - [3.4 General properties of homology groups](3/3.4.md)
   - [Problems](3/3_problems.md)
+- 4 Homotopy Groups
+  - [4.1 Fundamental groups](4/4.1.md) 
+  - [4.2 General properties of fundamental groups](4/4.2.md)
+  - [4.3 Examples of fundamental groups](4/4.3.md)
+  - [4.4 Fundamental groups of polyhedra](4/4.4.md)
