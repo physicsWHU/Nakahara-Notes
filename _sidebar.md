@@ -19,3 +19,5 @@
   - [4.2 General properties of fundamental groups](4/4.2.md)
   - [4.3 Examples of fundamental groups](4/4.3.md)
   - [4.4 Fundamental groups of polyhedra](4/4.4.md)
+  - [4.5 Higher homotopy groups](4/4.5.md)
+  - [4.6 General properties of higher homotopy groups](4/4.6.md)
