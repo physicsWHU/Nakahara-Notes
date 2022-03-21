@@ -21,3 +21,5 @@
   - [4.4 Fundamental groups of polyhedra](4/4.4.md)
   - [4.5 Higher homotopy groups](4/4.5.md)
   - [4.6 General properties of higher homotopy groups](4/4.6.md)
+  - [4.7 Examples of higher homotopy groups](4/4.7.md)
+  - [4.8 Orders in condensed matter systems](4/4.8.md)
