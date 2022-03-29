@@ -17,6 +17,23 @@ If you find any error or typo, please contact us to make corrections. It would b
   - 2.2 [Vector spaces](/2/2.2.md)
   - 2.3 [Topological spaces](/2/2.3.md)
   - 2.4 [Homeomorphisms and topological invariants](/2/2.4.md)
+- 3 Homology Groups
+  - 3.1 [Abelian groups](3/3.1.md)
+  - 3.2 [Simplexes and simplicial complexes](/3/3.2.md)
+  - 3.3 [Homology groups of simplicial complexes](/3/3.3.md)
+  - 3.4 [General properties of homology groups](3/3.4.md)
+- 4 Homotopy Groups
+  - 4.1 [Fundamental groups](/4/4.1.md)
+  - 4.2 [General properties of fundamental groups](/4/4.2.md)
+  - 4.3 [Examples of fundamental groups](/4/4.3.md)
+  - 4.4 [Fundamental groups of polyhedra](4/4.4.md)
+  - 4.5 [Higher homotopy groups](/4/4.5.md)
+  - 4.6 [General properties of higher homotopy groups](/4/4.6.md)
+  - 4.7 [Examples of higher homotopy groups](/4/4.7.md)
+  - 4.8 [Orders in condensed matter systems](/4/4.8.md)
+  - 4.9 [Defects in nematic liquid crystals](/4/4.9.md)
+  - 4.10 [Textures in superfluid $^3$He-A](/4/4.10.md)
+- 7 Riemann Geometry
 
 !> **Notice** This project is still under construction!
 
@@ -26,9 +43,10 @@ If you find any error or typo, please contact us to make corrections. It would b
 
 
 >Contributors:
->- *Li Feng* [<i class="fa fa-envelope" style="font-size:24px"></i> ](mailto:flphysics@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/IlIlllllIIIIl)
->- *Muchun Chen* [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:2019302070055@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/0923katou)
->- *Shangjie Zhou* [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:sjzhou@whu.edu.cn), [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/spaceofzsj)
+>- **Li Feng**: [<i class="fa fa-envelope" style="font-size:24px"></i> ](mailto:flphysics@whu.edu.cn) , [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/IlIlllllIIIIl)
+>- **Muchun Chen**: [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:2019302070055@whu.edu.cn) , [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/0923katou)
+>- **Yejing Zhan**: [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:nicolasjames@foxmail.com) , [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/Nicoals-James)
+>- **Shangjie Zhou**: [<i class="fa fa-envelope" style="font-size:24px"></i>](mailto:sjzhou@whu.edu.cn) , [<i class="fa fa-github" style="font-size:24px"></i>](https://github.com/spaceofzsj)
 
 ---
 

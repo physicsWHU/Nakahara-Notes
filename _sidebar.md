@@ -23,5 +23,7 @@
   - [4.6 General properties of higher homotopy groups](4/4.6.md)
   - [4.7 Examples of higher homotopy groups](4/4.7.md)
   - [4.8 Orders in condensed matter systems](4/4.8.md)
+  - [4.9 Defects in nematic liquid crystals](4/4.9.md)
+  - [4.10 Textures in superfluid $^3$He-A](4/4.10.md)
 - 7 Riemann Geometry
   - [7.1, 7.2 Introduction to Riemann Geometry](7/7.1_7.2.md)
