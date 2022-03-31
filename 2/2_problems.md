@@ -19,6 +19,8 @@ In this document, we will discuss after-class exercises and some difficult exerc
 >For any polyhedron, we have V vertices, F faces, and E edges. Let each face of a regular polyhedron be a positive n-sided, and each vertex has m edges, so the number of edges satisfies:
 $$E=\frac{1}{2}nF$$ And E is half the product of V vertices with m:$$E=\frac{1}{2}mV$$.Then we use Euler theorem:$$\frac{2E}{m}+\frac{2E}{n}-E=2$$ After that we get:$$\frac{1}{m}+\frac{1}{n}=\frac{1}{E}+\frac{1}{2}$$
 where E is $\mathbb{N}^*$.
+So we have$$\frac{1}{m}+\frac{1}{n}>\frac{1}{2}$$
+Obviously m,n can't over 3 at the same time, so m,n at least one of them is 3. We get$$(m,n)=(3,3)(3,4)(4,3)(3,5)(5,3)$$ 
 
 
 
