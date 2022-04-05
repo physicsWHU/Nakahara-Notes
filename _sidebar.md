@@ -26,6 +26,6 @@
   - [4.9 Defects in nematic liquid crystals](4/4.9.md)
   - [4.10 Textures in superfluid $^3$He-A](4/4.10.md)
 - 5 Manifolds
-  - [5.1 Manifolds](5.1.md)
+  - [5.1 Manifolds](5/5.1.md)
 - 7 Riemann Geometry
   - [7.1, 7.2 Introduction to Riemann Geometry](7/7.1_7.2.md)
