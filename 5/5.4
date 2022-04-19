@@ -6,4 +6,18 @@ Consider a $(0,r)$ form tensor $\omega\in{{\tau}_{r,p}}^0(M) $, them we can defi
 
 ## 5.4.1 Def of forms
 > **Def 5.4.1** A differential form of order r or an r-form is a totally anti-symmetric tensor of type $(0,r)$. That is: $$\omega_{\mu_1\mu_2...\mu_r}=\omega_{[\mu_1\mu_2...\mu_r]}$$.
-> **Def 5.4.2** Let us define the wedge product $\wedge$ of r one-form by the totally anti-symmetric tensor product: $$dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=\Sigma_{\pi}\delta_{\pi}dx^{\mu_{\pi(1)}}\wedge...\wedge dx^{\mu_{\pi(r)}}$$. For example: $$dx^{\mu}\wedge dx^{\nu}=dx^{\mu}\bigotimes dx^{\nu}-dx^{\nu}\bigotimes dx^{\mu}$$
+> **Def 5.4.2** Let us define the wedge product $\wedge$ of r one-form by the totally anti-symmetric tensor product: $$dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=\Sigma_{\pi}\delta_{\pi}dx^{\mu_{\pi(1)}}\wedge...\wedge dx^{\mu_{\pi(r)}}$$. For example: $$dx^{\mu}\wedge dx^{\nu}=dx^{\mu}\bigotimes dx^{\nu}-dx^{\nu}\bigotimes dx^{\mu}$$.
+It is readily verified that the wedge product satisfies the following:
+(i) $dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=0$ if some index $\mu$ appears at least twice.
+(ii)$dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=\delta_{\pi}dx^{\mu_{\pi(1)}}\wedge...\wedge dx^{\mu_{\pi(r)}}$
+(iii)$dx^{\mu_1}\wedge...\wedge dx^{\mu_r}$ is liner in each $dx^{\mu}$
+> **Def 5.4.3** ${\Omega_p}^r(M)$ is a vector space of r-form at p point.
+$\omega\in{\Omega_p}^r(M)$ can be expanded as: $$\omega=\frac{1}{r!}\omega_{\mu_1...\mu_r}dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=\omega_{[\mu_1...\mu_r]}. So we find that any tensor $\omega_{\mu\nu}$ can be witten: $$\omega_{\mu\nu}=\sigma_{\mu\nu}+\alpha_{\mu\nu}=\omega_{(\mu\nu)}+\omega_{[\mu\nu]}$$.
+
+Prove that $dim {\Omega_r}^r(M)={C_m}^r$ :
+> Prove: For $\forall\quad r,m,r\leq m$, we have:
+>$$\omega_{\mu_1...\mu_r}=\Sigma_{C}\omega_{\mu_1...\mu_r}{(e^{\mu_1})}_{a_1}\wedge...\wedge {(e^{\mu_1})}_{a_r}$$, where $\{{(e^1)}_a...{(e^m)}_a\}$ is a basis of ${V_p}^{*}$. $\omega_{\mu_1...\mu_r}$ is the component of $\omega$ in the basis of $F_V(0,l)$ with this basis: $$\omega_{\mu_1...\mu_r}=\omega_{a_1...a_r}(e_{\mu_1})^{a_1}...(e_{\mu_r})^{a_r}$$. $\Sigma_C$ is the sum of r combinations of m numbers, Q.E.D.
+And we can get:
+> $$dim {\Omega_p}^r(M)={\Omega_p}^{m-r}(M)$$
+> $${\Omega_p}^r(M)\backsimeq{\Omega_p}^{m-r}(M)$$
+## 5.4.2 Exterior product
