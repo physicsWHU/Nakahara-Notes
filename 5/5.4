@@ -1,1 +1,9 @@
+# 5.4 Differential forms
+## 5.4.0 Symmetry operation
 
+Consider a $(0,r)$ form tensor $\omega\in{{\tau}_{r,p}}^0(M) $, them we can define the symmetrizer and anti-symmetrizer operate.
+> **Definition 5.4.0** For symmetrizer we have: $$\omega_{(\mu_1\mu_2...\mu_r)}=\frac{1}{r!}\Sigma_{\pi}\omega_{\mu_{\pi(1)}...\mu_{\pi(r)}}$$ and for anti-symmetrizer we have: $$\omega_{[\mu_1\mu_2...\mu_r]}=\frac{1}{r!}\Sigma_{\pi}\delta_{\pi}\omega_{\mu_{\pi(1)}...\mu_{\pi(r)}}$$, where $\delta_{\pi}=\pm 1$ if it is even permutations or odd permutations.
+
+## 5.4.1 Def of forms
+> **Def 5.4.1** A differential form of order r or an r-form is a totally anti-symmetric tensor of type $(0,r)$. That is: $$\omega_{\mu_1\mu_2...\mu_r}=\omega_{[\mu_1\mu_2...\mu_r]}$$.
+> **Def 5.4.2** Let us define the wedge product $\wedge$ of r one-form by the totally anti-symmetric tensor product: $$dx^{\mu_1}\wedge...\wedge dx^{\mu_r}=\Sigma_{\pi}\delta_{\pi}dx^{\mu_{\pi(1)}}\wedge...\wedge dx^{\mu_{\pi(r)}}$$. For example: $$dx^{\mu}\wedge dx^{\nu}=dx^{\mu}\bigotimes dx^{\nu}-dx^{\nu}\bigotimes dx^{\mu}$$
