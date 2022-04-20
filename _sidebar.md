@@ -27,5 +27,10 @@
   - [4.10 Textures in superfluid $^3$He-A](4/4.10.md)
 - 5 Manifolds
   - [5.1 Manifolds](5/5.1.md)
+  - [5.2 The calculus on manifolds](5/5.2.md)
+  - [5.4 Differential forms](5/5.4.md)
+  - [5.5 Integration of differential forms](5/5.5.md)
+  - [5.6 Lie groups and Lie algebras](5/5.6.md)
+  - [5.7 The action of Lie groups on manifolds](5/5.7.md)
 - 7 Riemann Geometry
   - [7.1, 7.2 Introduction to Riemann Geometry](7/7.1_7.2.md)
