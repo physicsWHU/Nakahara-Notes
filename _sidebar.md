@@ -28,6 +28,7 @@
 - 5 Manifolds
   - [5.1 Manifolds](5/5.1.md)
   - [5.2 The calculus on manifolds](5/5.2.md)
+  - [5.3 Flows and Lie derivatives](5/5.3.md)
   - [5.4 Differential forms](5/5.4.md)
   - [5.5 Integration of differential forms](5/5.5.md)
   - [5.6 Lie groups and Lie algebras](5/5.6.md)
