@@ -15,4 +15,77 @@ spaces with $R$-coefficients and we have $B^{r}(M)\subset Z^{r}(M)$.
 >**Definition 6.2** The rth de Rham cohomology group is defined by $$H^{r}(M;R)=Z^{r}(M)/B^{r}(M)$$
 >If $r\leq -1$ or $r\geq m+1$, $H^{r}(M;R)$ may be defined to be trivial.
 
+Let $\omega\in Z^{r}(M)$, then $[\omega]\in H^{r}(M)$ is the equivalence class. {$\omega^{'}\in Z^{r}(M)|\omega^{'}=\omega+d\phi, \phi\in \Omega^{r-1}(M)$}.  Two forms which differ by an exact
+form are called **cohomologous**.
+
+Now we will charify de Rham cohomology group by three example:
+
+>**Exam6.1** $B^{0}(M)$中的元素是$\omega=d\phi$, $\phi\in\Omega^{-1}(M)=0$, 因此内部无任何元素，$B^{0}(M)=0$; 于是$H^{0}=Z^{0}=\mathcal{F}(M)$. 在联通的流形上, 元素$f\in H^{0}$, d$f=0$, we get $f=const$, so $H^{0}(M)\cong R$. If M has n connected components we have $$H^{0}(M)\cong R\oplus R\oplus\cdot\cdot\cdot\oplus R$$
+
+>**Exam6.2** 计算 $H^{1}(R)$, dim$R=1$ 因此任何形式one-form为$\omega=fdx$, 可见$d\omega=0$, 有$\forall\omega\in\Omega^{1}(R)$, $\omega\in Z^{1}(R)$, 又由于$\omega=fdx=\frac{dF}{dx}dx=dF$, $F=\Omega^{0}(R)$, 显然又有$\omega\in B^{1}(R)$, 则$$H^{1}(R)=Z^{1}(R)/B^{1}(R)={0}$$
+
+>**Exam6.3** 对于$M=S^{1}={e^{i\theta}|0\leq\theta\leq 2\pi}$, 由于$S^{1}$是联通的，$H^{0}(S^{1})=R$, 计算$H^{1}(S^{1})$: We take one-form $\omega=f(\theta)d\theta=dF$, where $F(\theta)=\int_{0}^{\theta}f(\theta^{'})d\theta^{'}$. If we find a approprite function F, then $\omega$ is exact. 
+>But F must satisfy the periodicity $F(2\pi)=F(0)$. Namely F must satisfy $$F(2\pi)=\int_{0}^{2\pi}f(\theta^{'})d\theta^{'}=0$$
+>If we define a map $\lambda$: $\Omega^{1}(S^{1})\to R$ by $$\lambda: \omega=fd\theta\mapsto\int_{0}^{2\pi}fd(theta^{'})d\theta^{'}$$
+>If $\omega\in B^{1}$, then $\int_{0}^{2\pi}f(\theta^{'})d\theta^{'}=0$; we can get cohomology group:$$H^{1}(S^{1})=\Omega^{1}(S^{1})/ker \lambda=Z^{1}/ker \lambda=im\lambda=R$$
+
+Let $\omega$ and $\omega^{'}$ be closed and not exact. $\omega-\omega^{'}$ is not exact in general. But there $\exists$ real number $a$ such that $\omega^{'}-a\omega$ is exact. If we put: $$a=\int_{0}^{2\pi}\omega^{'}/\int_{0}^{2\pi}$$
+we have: $$\int_{0}^{2\pi}(\omega^{'}-a\omega)=0$$
+So each cohomology class is specified by a real number $a$, hence $H^{1}(S^{1})=R$.
+
+###6.2.2 Duality of $H_r(M)$ and $H^{r}(M)$ and de Rham’s theorem
+
+斯托克斯定理指出, 对$\omega\in\Omega^{r-1}(M)$, $c\in C_r(M)$: $$\int_{c} d\omega=\int_{\partial c}\omega$$
+Define a inner product, we have this form $(c,d\omega)=(\partial c,\omega)$. We can prove, for $c\in B_r$, $\omega\in Z^{r}$, $(c,\omega)=0$; $c\in Z_r$, $\omega\in B^{r}$, $(c,\omega)=0$. Because the group represents the equivalence of elements, we can generalize the inner product to the inner product of equivalence classes, for $[c]\in H_r$, $[\omega]\in H^{r}$: $$\wedge([c],[\omega])=(c,\omega)=\int_c\omega$$
+It can be proved that this representation is independent of the selection of representative elements for both.
+
+>**de Rham’s theorem** If $M$ is a compact manifold, $H_r(M)$ and $H^{r}(M)$ are finite dimensional. Moreover the map: $$\wedge: H_r(M)\times H^{r}(M)\to R$$ is bilinear and non-degenerate. Thus, there are dual.
+
+A period of a closed r-form $\omega$ over a cycle $c$ is defined by $(c,\omega)=\int_c\omega$.
+We have these corollary:
+
+>**Corollary 6.1** M is a compact mainfold and let k be the rth Betti number. $c_1,c_2...c_k$ be properly chosen elements of $Z_r(M)$.
+>(a) A closed r-form $\phi$ is exact if and only if $$\int_{c_{i}}\phi=0\qqard(1\leq i\leq k)$$
+>(b) For any set of real numbers $b_1,b_2...,b_k$ there exists a closed r-form $\omega$ such that $$\int_{c_{i}}\omega=b_i\qqard(1\leq i\leq k)$$
+
+Proof:
+>(a)de Rham’s theorem states that the bilinear form $\wedge([c],[\omega])$ is non degenerate. Hence, if $\wedge([c],\qard)$ is regarded as a linear map acting on $H^{r}(M)$, the kernel consists of the trivial element, the cohomology class of exact forms. Accordingly, $\phi$ is an exact form.
+>(b)de Rham’s theorem ensures that corresponding to the homology basis ${[c_i]}$, we may choose the dual basis ${[\omega_i]}$ of $H^{r}(M)$ such that $$\wedge([c_i],[\omega_j])=\int_{c_{i}}\omega_j=\delta_{ij}$$
+If we define $\omega=\sum_{i=1}^{k}b_{i}\omega_{i}$, the closed r-form $\omega$ satisfies $$\int_{c_{i}}=b_i$$ as claimed.
+
+For example:
+
+(a) $H^{0}\cong H_{0}\cong R\oplus\cdot\cdot\cdot\oplus R$
+
+(b)$H^{1}(S^{1})\cong H_{1}(S^{1})\cong R$
+
+Since $H^{r}$ is isomorphic to $H_r$, we have:$$b^{r}(M)=dim\qard H^{r}(M)=dim\qard H_{r}(M)=b_r(M)$$
+
+边界算子和外微分算子的作用流程为：$$\gets C_{r-1}(M)\stackrel{\partial_{r}}{longleftarrow}C_r(M)\stackrel{\partial_{r+1}}{longleftarrow}$$
+$$\to\Omega^{r-1}(M)\stackrel{d_{r}}{longrightarrow}\Omega^{r}(M)\stackrel{d_{r+1}}{longrightarrow}$$
+其中同调群为$$H_r=Z_r/B_r=ker \partial_r/im \partial_{r+1}$$
+上同调群为$$H^{r}=Z^r/B^r=ker{d_{r+1}}/im{d_{r}}
+它们是同构的。
+
+## 6.3 Poincar´e’s lemma
+
+>**Theorem6.3(Poincar´e’s lemma)** If a coordinate neighbourhood $U$ of a
+manifold $M$ is contractible to a point $p_0\in M$, any closed r-form on $U$ is also
+exact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
