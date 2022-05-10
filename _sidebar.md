@@ -33,5 +33,7 @@
   - [5.5 Integration of differential forms](5/5.5.md)
   - [5.6 Lie groups and Lie algebras](5/5.6.md)
   - [5.7 The action of Lie groups on manifolds](5/5.7.md)
+- 6 de Rham cohomology
+  - [6.2 de Rham cohomology](6/6.2.md)
 - 7 Riemann Geometry
   - [7.1, 7.2 Introduction to Riemann Geometry](7/7.1_7.2.md)
