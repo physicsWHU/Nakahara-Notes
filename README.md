@@ -41,6 +41,9 @@ If you find any error or typo, please contact us to make corrections. It would b
   - 5.5 [Integration of differential forms](5/5.5.md)
   - 5.6 [Lie groups and Lie algebras](5/5.6.md)
   - 5.7 [The action of Lie groups on manifolds](5/5.7.md)
+- 6 de Rham cohomology
+  - 6.2 [de Rham cohomology groups](6/6.2.md)
+  - 6.3 [Poincaré's lemma](6/6.3.md)
 - 7 Riemann Geometry
 
 !> **Notice** This project is still under construction!
