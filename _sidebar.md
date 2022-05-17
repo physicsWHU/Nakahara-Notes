@@ -37,4 +37,5 @@
   - [6.2 de Rham cohomology](6/6.2.md)
   - [6.3 Poincaré lemma](6/6.3.md)
 - 7 Riemann Geometry
-  - [7.1, 7.2 Introduction to Riemann Geometry](7/7.1_7.2.md)
+  - [7.1 Riemannian manifolds and pseudo-Riemannian manifolds](7/7.1.md)
+  - [7.2 Parallel transport, connection and covariant derivative](7/7.2.md)
