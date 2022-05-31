@@ -35,7 +35,21 @@ If you find any error or typo, please contact us to make corrections. It would b
   - 4.10 [Textures in superfluid $^3$He-A](/4/4.10.md)
 - 5 Manifolds
   - 5.1 [Manifolds](/5/5.1.md)
+  - 5.2 [The calculus on manifolds](5/5.2.md)
+  - 5.3 [Flows and Lie derivatives](5/5.3.md)
+  - 5.4 [Differential forms](5/5.4.md)
+  - 5.5 [Integration of differential forms](5/5.5.md)
+  - 5.6 [Lie groups and Lie algebras](5/5.6.md)
+  - 5.7 [The action of Lie groups on manifolds](5/5.7.md)
+- 6 de Rham cohomology
+  - 6.2 [de Rham cohomology groups](6/6.2.md)
+  - 6.3 [Poincaré's lemma](6/6.3.md)
 - 7 Riemann Geometry
+  - 7.1 [Riemannian manifolds and pseudo-Riemannian manifolds](7/7.1.md)
+  - 7.2 [Parallel transport, connection and covariant derivative](7/7.2.md)
+  - 7.3 [Curvature and torsion](7/7.3.md)
+  - 7.4 [Levi-Civita connections](7/7.4.md)
+  - 7.5 [Holonomy](7/7.5.md)
 
 !> **Notice** This project is still under construction!
 
