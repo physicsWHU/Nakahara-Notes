@@ -42,3 +42,5 @@
   - [7.3 Curvature and torsion](7/7.3.md)
   - [7.4 Levi-Civita connections](7/7.4.md)
   - [7.5 Holonomy](7/7.5.md)
+  - [7.8 Non-coordinate bases](7/7.8.md)
+  - [7.9 Differential forms and Hodge theory](7/7.9.md)
